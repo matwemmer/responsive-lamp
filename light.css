@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+    background-color: rgba(247, 242, 174, 0.185);
+    color: rgba(0, 0, 0, 0.945);
+}
+
+#container {
+    display: flex;
+    flex-direction: column; /* imagem em cima, texto embaixo */
+    align-items: center;    /* centraliza horizontalmente */
+    text-align: center;     /* centraliza o texto */
+    gap: 1rem;
+}
+#container img {
+    height: auto;
+    background-color: yellow;
+    border-radius: 50%; 
+    box-shadow: 
+        0 0 10px yellow,               
+        0 0 20px yellow,                
+        0 0 40px yellow,               
+        0 0 80px yellow,               
+        0 0 100px yellow;               
+}
+
+
+
+
